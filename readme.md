@@ -1,0 +1,1 @@
+Practicing math and TDD using the [Project Euler](http://projecteuler.net/) problems. Last tested using Ruby 1.9.3 and RSpec 2.14.4. 
