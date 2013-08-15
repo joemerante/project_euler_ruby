@@ -14,8 +14,7 @@ def largest_palindrome_product(n)
 	 
 	  max = 0
 		arr1.each do |a|
-			arr2.each do |b|  # does 99 x 99...10
-				next unless (a * b).to_s.length == 2 * n
+			arr2.each do |b|
 				(a * b).to_s == (a * b).to_s.reverse && a * b > max ? max = a * b : max
 			end
 		end
